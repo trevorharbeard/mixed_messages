@@ -7,3 +7,5 @@ A basic message generator written in JavaScript that produces an absurdist poem 
 3. From the command line, navigate to the file and type `node mixed_messages.js`.
 
 *Run the app a few times to see different results!*
+
+Written under the GNU GPL v3.0 license.
