@@ -23,13 +23,13 @@ for (let comp in poemComps) {
             message.push(`I called into ${poemComps[comp][idx]}`);
             break;
         case 'request':
-            message.push(`To give me ${poemComps[comp][idx]};`);
+            message.push(`To give me ${poemComps[comp][idx]}.`);
             break;
         case 'envoy':
-            message.push(`A ${poemComps[comp][idx]} appeared,`);
+            message.push(`A ${poemComps[comp][idx]} appeared;`);
             break;
         case 'response':
-            message.push(`${poemComps[comp][idx]} it asked.`);
+            message.push(`${poemComps[comp][idx]}`);
             break;
         default:
             message.push('I am alone.');
@@ -37,4 +37,13 @@ for (let comp in poemComps) {
     }
 }
 
-console.log(message);
+function formatMessage(message) {
+    const formattedMessage = message.join('\n');
+    console.log(`
+------------------------------
+${formattedMessage}
+------------------------------
+    `);
+}
+
+formatMessage(message);
