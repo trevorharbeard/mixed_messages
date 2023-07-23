@@ -1,2 +1,9 @@
-# mixed_messages
-A basic message generator to use as a portfolio project for Codecademy's Full Stack Developer career path
+# Mixed Messages
+A basic message generator written in JavaScript that produces an absurdist poem from random components.
+
+## To Run Locally
+1. Ensure you have Node.js installed
+2. Download mixed_messages.js
+3. From the command line, navigate to the file and type `node mixed_messages.js`.
+
+*Run the app a few times to see different results!*
