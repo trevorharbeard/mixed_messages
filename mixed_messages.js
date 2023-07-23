@@ -37,6 +37,7 @@ for (let comp in poemComps) {
     }
 }
 
+// format message for the terminal
 function formatMessage(message) {
     const formattedMessage = message.join('\n');
     console.log(`
